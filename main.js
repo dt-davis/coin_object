@@ -43,7 +43,7 @@ function display20Flips(){
 
     }
 }
-
+display20Flips()
 function display20Images(){
     let body = document.querySelector('body')
     for(let counter = 0; counter < 20; counter++){
@@ -52,5 +52,5 @@ function display20Images(){
         body.append(imgCreate)
     }
 }
-
+display20Images()
 
